@@ -28,7 +28,7 @@ public class DataConexion {
 			cpds.setDriverClass("com.mysql.jdbc.Driver"); 
 			//localhost->IP DEL SERVIDOR
 			cpds.setJdbcUrl("jdbc:mysql://"+ip_server+"/"+bd); 
-			cpds.setUser("Antonio"); cpds.setPassword("nico2222");
+			cpds.setUser("Antonio"); cpds.setPassword("12345678");
 			cpds.setAcquireRetryAttempts(1); cpds.setAcquireRetryDelay(1); cpds.setBreakAfterAcquireFailure(true);
 			DataSource ds = cpds; 
 			con = ds.getConnection();
